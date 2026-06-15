@@ -1,0 +1,88 @@
+/* PAGE */
+.projects-page {
+    font-family: Arial, sans-serif;
+    color: #0d3b66;
+  }
+  
+  /* HERO */
+  .projects-hero {
+    background: linear-gradient(to right, #c7d8dc, #eaf4f6);
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .projects-hero h1 {
+    font-size: 36px;
+  }
+  
+  .projects-hero p {
+    color: #444;
+  }
+  
+  /* GRID */
+  .projects-container {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+  }
+  
+  /* CARD */
+  .project-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* IMAGE */
+  .project-img {
+    height: 180px;
+    overflow: hidden;
+  }
+  
+  .project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+  }
+  
+  .project-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* INFO */
+  .project-info {
+    padding: 15px;
+  }
+  
+  .project-info h3 {
+    margin-bottom: 5px;
+  }
+  
+  .location {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  /* STATUS */
+  .status {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .status.completed {
+    background: #d4edda;
+    color: #155724;
+  }

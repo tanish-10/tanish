@@ -1,0 +1,144 @@
+.home {
+    font-family: Arial, sans-serif;
+    color: #111;
+  }
+  
+  /* HERO */
+  .hero {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0") center/cover no-repeat;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+  }
+  
+  .hero-content {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 700px;
+  }
+  
+  .hero-logo {
+    width: 90px;
+    margin-bottom: 15px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    opacity: 0.9;
+  }
+  
+  .location {
+    margin: 10px 0;
+    opacity: 0.8;
+  }
+  
+  /* BUTTONS */
+  .btn {
+    padding: 10px 18px;
+    margin: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+  }
+  
+  .primary {
+    background: #00aaff;
+    color: white;
+  }
+  
+  .secondary {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .glow {
+    background: #00aaff;
+    color: white;
+    box-shadow: 0 0 15px #00aaff;
+  }
+  
+  /* SECTIONS */
+  .section {
+    padding: 60px 10%;
+  }
+  
+  .section.dark {
+    background: #f5f7fa;
+  }
+  
+  /* GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  
+  /* CARDS */
+  .card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+  }
+  
+  /* SERVICE IMAGE */
+  .service-img img,
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* CARD BODY */
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* TAGS */
+  .tag {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+  }
+  
+  .completed {
+    background: #d4f8d4;
+    color: green;
+  }
+  
+  .ongoing {
+    background: #fff3cd;
+    color: #b8860b;
+  }
+  
+  /* CTA */
+  .cta {
+    text-align: center;
+    padding: 80px 10%;
+    background: linear-gradient(135deg, #00aaff, #004aad);
+    color: white;
+  }
+  
+  /* CENTER */
+  .center {
+    text-align: center;
+    margin-top: 20px;
+  }
