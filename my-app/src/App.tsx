@@ -62,12 +62,6 @@ function App() {
   );
   
 }
-{
-  "compilerOptions": {
-    "allowJs": true,
-    "noEmit": true,
-    "skipLibCheck": true
-  }
-}
+
 
 export default App;
